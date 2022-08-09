@@ -26,9 +26,14 @@ body{
 
 .navbar > h1 {
   font-size: 28px;
-  font-weight: 300;
+  font-weight: 900;
 }
 
 .navbar-form-search {
-    height: fit-content;
+  height: fit-content;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #2d3748;
+  width: 100%;
+
 }
