@@ -35,5 +35,23 @@ body{
   border: none;
   border-bottom: 1px solid #2d3748;
   width: 100%;
+  padding: 12px 20px;
 
 }
+
+.movies { margin-bottom: 60px; }
+
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+
+  .movie-card .card-head {
+    position: relative;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+  }
