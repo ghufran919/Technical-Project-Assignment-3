@@ -8,34 +8,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--
-    - main container
-  -->
+
   <div class="container">
 
-    <!--
-      - #HEADER SECTION
-    -->
-
-    <header class="">
+    <header>
       <div class="navbar">
         
         <h1> Skilmovie</h1>
         
-            <div class="navbar-actions">
+            <div>
 
-            <form action="#" class="navbar-form">
-              <input type="text" name="search" placeholder="Search" class="navbar-form-search">
+            <form id="form">
+              <input type="text" name="search" placeholder="Search" class="navbar-form-search" id="search">
 
               </form>
             </div>
         </div>
     </header>
-
-    <main id="main"></main>
+    <main id="main" class="overlay"></main>
     <div class="pagination">
         <div class="page" id="prev">Previous Page</div>
-        <div class="current" id="current">1</div>
+        <div class="space">___</div>
+      <!---  <div class="current" id="current">1</div>
+        --->
+        <div class="intersection">|</div>
+        <div class="space">___</div>
         <div class="page" id="next">Next Page</div>
 
     </div>
