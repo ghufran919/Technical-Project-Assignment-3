@@ -7,6 +7,15 @@
     --primary: #6b46c1;
   }
 
+header{
+    padding:1rem;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+  }
+
 body{
     box-sizing: border-box;
     padding: 0;
@@ -34,24 +43,21 @@ body{
   outline: none;
   border: none;
   border-bottom: 1px solid #2d3748;
-  width: 100%;
+  width: 50&;
   padding: 12px 20px;
 
 }
 
-.movies { margin-bottom: 60px; }
+main{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-.movies-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-    gap: 30px;
-    margin-bottom: 60px;
-  }
-
-  .movie-card .card-head {
-    position: relative;
-    height: 250px;
-    border-radius: 15px;
-    margin-bottom: 15px;
-    overflow: hidden;
-  }
+.pagination{
+  display:flex;
+  margin:10px 30px;
+  align-items: center;
+  justify-content: center;
+  color:rgb(0, 0, 0);
+}
